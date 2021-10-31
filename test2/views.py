@@ -9,6 +9,6 @@ def index(request):
 
 def index2(request):
     context = {}
-    context['hello'] = 'Hello World!'
+    context['hello'] = 'Hello2 World!'
     return render(request, 'index.html', context)
 
